@@ -29,10 +29,10 @@ export default function Appointments() {
     }
   };
 
-  const handleLogout = () => {
-    localStorage.clear();
-    navigate('/');
-  };
+  // const handleLogout = () => {
+  //   localStorage.clear();
+  //   navigate('/');
+  // };
 
   return (
     <div className="container-full">
